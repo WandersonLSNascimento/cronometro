@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, rgb(0, 0, 0),rgb(140, 137, 56));
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+h1 {
+    color: aliceblue;
+    font-size: 5em;
+}
+div {
+    text-align: center;
+}
+
+.btn-iniciar{
+    border-radius: 15px;
+    height: 50px;
+    width: 90px;
+    background-color: rgb(52, 137, 52);
+    color: white;
+    margin: 10px;
+}
+
+.btn-pausar{
+    border-radius: 15px;
+    height: 50px;
+    width: 90px;
+    background-color: rgb(81, 163, 222);
+    color: white;
+    margin: 10px;
+    
+}
+
+.btn-parar {
+    border-radius: 15px;
+    height: 50px;
+    width: 90px;
+    background-color: rgb(164, 11, 11);
+    color: white;
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
